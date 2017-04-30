@@ -4,10 +4,7 @@ import json
 import datetime
 from slugify import slugify
 
-# Takes all items scraped from www.bagnowka.pl, converts and adds necessary 
-# keys and then turns them into a valid BH DBS doc. 
-
-input_file = open("bphotos.json", "r") # Use the output file from Scrapy scrawler
+input_file = open("bphotos.json", "r")
 bdata = json.load(input_file)
 
 # Slug.En
@@ -18,7 +15,7 @@ def slug(i):
     for word in words:
         n_words += word
     slug_ending = slugify(n_words, to_lower=True)
-    slug = "place_{}".format(slug_ending)
+    slug = "image_{}".format(slug_ending)
     return slug
 
 def date(i):
@@ -112,8 +109,8 @@ def thumbnail_url(i):
 
 def create_doc(i):
     currentDT = datetime.datetime.now()
-    dt = str(currentDT.strftime("%Y-%m-%d %H:%M:%S"))
-    photo_data = {"bagnowka":"True","RightsDesc":"Full","UpdateUser":"BH Online","UpdateDate":dt,"StatusDesc":"Completed","DisplayStatusDesc":"Museum and Internet","main_image_url": main_image_url(i),"Pictures":[{"PictureId":picture_id(i)}],"UnitPeriod":[{"PeriodDateTypeDesc":{"En":"Year","He":"שנים"},"PeriodDesc":{"En":date(i),"He":date(i)}}],"TS":"","UnitTypeDesc":"Photo","Slug":{"En":slug(i),"He":""},"UnitText1":{"En":unit_text_en(i),"He":""},"related":["place_belarus"],"PeriodDesc":{"En":date(i),"He":date(i)},"UnitHeaderDMSoundex":{"En":"","He":""},"UnitId":create_and_set_id(i),"_id":create_and_set_id(i),"Header":{"En":header_en(i),"He":""},"thumbnail_url":main_image_url(i)}
+    dt = currentDT.strftime("%Y-%m-%d{}%H:%M:%S{}".format("T", "Z"))
+    photo_data = {"bagnowka":"True","RightsDesc":"Full","UpdateUser":"BH Online","UpdateDate":dt,"StatusDesc":"Completed","DisplayStatusDesc":"Museum and Internet","main_image_url": main_image_url(i),"Pictures":[{"PictureId":picture_id(i)}],"UnitPeriod":[{"PeriodDateTypeDesc":{"En":"Year","He":"שנים"},"PeriodDesc":{"En":date(i),"He":date(i)}}],"TS":"","UnitTypeDesc":"Photo","Slug":{"En":slug(i)},"UnitText1":{"En":unit_text_en(i)},"related":["place_belarus"],"PeriodDesc":{"En":date(i),"He":date(i)},"UnitHeaderDMSoundex":{"En":"","He":""},"UnitId":create_and_set_id(i),"_id":create_and_set_id(i),"Header":{"En":header_en(i)},"thumbnail_url":main_image_url(i)}
     return photo_data
 
 
@@ -137,6 +134,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-    
-
