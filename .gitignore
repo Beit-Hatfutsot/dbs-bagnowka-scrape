@@ -4,3 +4,4 @@
 ENV/
 *.pyc
 .DS_Store
+/local_files
