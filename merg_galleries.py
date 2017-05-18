@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
+
 import json
-
-# Merges items after "parsing.py" returned items that have identical info, 
-# and adds the "PcitureId" from similar items to the one merged item.
-
 
 input_file = open("all_photos_new_array.json", "r")
 old_data = json.load(input_file)
