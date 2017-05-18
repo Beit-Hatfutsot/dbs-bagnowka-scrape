@@ -1,7 +1,10 @@
 .vscode
 *.DS_Store
 .vscode/*
+<<<<<<< HEAD:.gitignore
 ENV/
 *.pyc
 .DS_Store
 /local_files
+=======
+>>>>>>> parent of 1ec8e88... Update spider and parsing.py:.vscode/.gitignore
