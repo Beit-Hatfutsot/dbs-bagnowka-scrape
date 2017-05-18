@@ -1,0 +1,159 @@
+{
+	"_id" : NumberLong(2),
+	"NegativeNumbers" : "EXH.96.82.1|",
+	"IsLandscape" : "0|",
+	"PrevPictureUnitsId" : null,
+	"ExhibitionIsPreview" : "0|",
+	"LocationInMuseum" : null,
+	"Pictures" : [
+		{
+			"IsLandscape" : "0",
+			"ForDisplay" : "0",
+			"ToScan" : "0",
+			"IsPreview" : "0",
+			"PictureTypeDesc" : {
+				"En" : "Negative-color",
+				"He" : "נגטיב"
+			},
+			"PicId" : "185681",
+			"PictureId" : "9E0BD0B6-B7DC-4557-908A-DDB536F928AC",
+			"LocationCode" : "EXH.96.199"
+		},
+		{
+			"PictureTypeDesc" : {
+				"He" : "-"
+			}
+		},
+		{
+			"PictureTypeDesc" : {
+				"He" : "צבע"
+			}
+		}
+	],
+	"ToScan" : "0|",
+	"PeriodDateTypeDesc" : {
+		"En" : "Year|",
+		"He" : "שנים|"
+	},
+	"ExhibitionId" : "112105|",
+	"UpdateDate" : ISODate("2016-07-11T09:37:00Z"),
+	"OldPictureNumbers" : "|",
+	"OldUnitId" : "36740",
+	"id" : NumberLong(3498),
+	"UpdateUser" : "Archive2  ",
+	"PictureLocations" : "MISSING|",
+	"UnitDisplayStatus" : 1,
+	"UnitPeriod" : [
+		{
+			"PeriodDateTypeDesc" : {
+				"En" : "Year",
+				"He" : "שנים"
+			},
+			"PeriodEndDate" : "19199999",
+			"PeriodNum" : "0",
+			"PeriodTypeDesc" : {
+				"En" : "Period",
+				"He" : "תקופת"
+			},
+			"PeriodDesc" : {
+				"En" : "1919",
+				"He" : "1919"
+			},
+			"PeriodStartDate" : "19190000",
+			"PeriodTypeCode" : "4",
+			"PeriodDateTypeCode" : "1"
+		},
+		{
+			"PeriodTypeDesc" : {
+				"He" : "צילום"
+			}
+		}
+	],
+	"PrevPicturePaths" : "|",
+	"TS" : "\u0000\u0000\u0000\u0000\u0000bL2",
+	"PrevPictureId" : "175598F4-7F74-4630-A0C1-871EA24B2E7C",
+	"PictureSources" : "52299|",
+	"UnitPersonalities" : [ ],
+	"UnitTypeDesc" : "Photo",
+	"Slug" : {
+		"En" : "image_poster-for-the-film-prostitution-berlin-germany-1919",
+		"He" : "תמונה_כרזה-של-הסרט-זנות-ברלין-גרמניה-1919"
+	},
+	"PeriodStartDate" : "19190000|",
+	"PIctureReceivedIds" : null,
+	"PeriodDateTypeCode" : "1|",
+	"RightsDesc" : "None",
+	"OrderBy" : null,
+	"Bibiliography" : {
+		"En" : null,
+		"He" : null
+	},
+	"UnitText1" : {
+		"En" : "Poster for the film Prostitution, produced by Richard Oswald, in collaboration with Dr. Magnus Hirschfeld.\nBy Josef Fenneker, Berlin, Germany 1919.\nMagnus Hirschfeld (1868-1935) was a renowned\nauthority on sexology.\n(Berlin, Stiftung Deutscher Cinemathek)",
+		"He" : "כרזה של הסרט \"זנות\" שהופק בידי ריכרד אוסוולד \nבשיתוף עם ד\"ר מגנוס הירשפלד והופץ בידי יוזף פנקר, \nברלין, גרמניה, 1919.\nד\"ר מגנוס הירשפלד (1868-1935) היה סמכות מפורסמת התחום הסקסולוגיה.\n(ברלין, קרן הסינמטק הגרמני)"
+	},
+	"UnitText2" : {
+		"En" : null,
+		"He" : null
+	},
+	"UnitPlaces" : [
+		{
+			"PlaceIds" : "72491"
+		}
+	],
+	"PersonalityIds" : null,
+	"UnitStatus" : 2,
+	"PictureFileNames" : "|",
+	"PeriodDesc" : {
+		"En" : "1919|",
+		"He" : "1919|"
+	},
+	"UnitHeaderDMSoundex" : {
+		"En" : "ZZ E743900 ZZ E790000 ZZ E300000 ZZ E786000 ZZ E794333 ZZ E798600 ZZ E596600 ZZ ",
+		"He" : "ZZ H594000 ZZ H480000 ZZ H549300 ZZ H463000 H464000 H467300 H467400 ZZ H798600 ZZ H596600 H596650 ZZ "
+	},
+	"PrevPictureFileNames" : null,
+	"RightsCode" : 3,
+	"PeriodTypeCode" : "4|",
+	"UnitId" : NumberLong(2),
+	"PreviewPics" : [
+		{
+			"PrevPictureId" : "175598F4-7F74-4630-A0C1-871EA24B2E7"
+		}
+	],
+	"IsValueUnit" : true,
+	"StatusDesc" : "Edit",
+	"DisplayStatusDesc" : "Internal Use",
+	"PicturePaths" : null,
+	"Exhibitions" : [
+		{
+			"ExhibitionId" : "112105",
+			"ExhibitionIsPreview" : "0"
+		}
+	],
+	"UserLexicon" : "49375|49444|",
+	"PictureTypeCodes" : "8|",
+	"EditorRemarks" : "Picture - Onyx",
+	"Attachments" : [ ],
+	"ForDisplay" : "0|",
+	"PeriodEndDate" : "19199999|",
+	"PeriodNum" : "0|",
+	"PictureTypeDesc" : {
+		"En" : "Negative-color|",
+		"He" : "נגטיב - צבע|"
+	},
+	"UnitType" : 1,
+	"Header" : {
+		"En" : "Poster for the Film \"Prostitution\", Berlin, Germany, 1919",
+		"He" : "כרזה של הסרט \"זנות\", ברלין, גרמניה, 1919"
+	},
+	"PeriodTypeDesc" : {
+		"En" : "Period|",
+		"He" : "תקופת צילום|"
+	},
+	"PicId" : "185681|",
+	"ForPreview" : false,
+	"Resolutions" : "100|",
+	"LocationCode" : "EXH.96.199|",
+	"related" : [
+		"place_berlin"
