@@ -23,8 +23,8 @@ IMAGES_THUMBS = {
 IMAGES_STORE_S3_ACL = 'public-read'
 
 # Access keys (next two lines) should be replaced with valid keys!
-AWS_ACCESS_KEY_ID = {YOUR_ACCESS_KEY_ID}
-AWS_SECRET_ACCESS_KEY= {YOUR_SECRET_ACCESS_KEY}
+AWS_ACCESS_KEY_ID = 'AWS_ACCESS_KEY_ID'
+AWS_SECRET_ACCESS_KEY= 'AWS_ACCESS_KEY_ID'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
