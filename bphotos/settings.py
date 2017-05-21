@@ -16,7 +16,7 @@ NEWSPIDER_MODULE = 'bphotos.spiders'
 ITEM_PIPELINES = {
     'scrapy.contrib.pipeline.images.ImagesPipeline': 1
 }
-IMAGES_STORE = 's3://bialystok/'
+IMAGES_STORE = 's3://bagnowka/'
 IMAGES_THUMBS = {
     'small': (260, 260),
 }
