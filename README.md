@@ -17,16 +17,3 @@ run `prsing.py` (don't forget to change the name of the input file to match the 
 #### 3. Merge items with identical info
 Using the output file from previous step, run `merge_galleries.py`
 (and make sure that the output is valid).
-<<<<<<< HEAD
-=======
-
-
-
-
-
-
-
-
-
-
->>>>>>> ef0437acb438daff5b0e977ea693f1bc183bf3c4
